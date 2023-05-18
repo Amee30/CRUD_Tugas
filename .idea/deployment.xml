@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="Local host" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="Local host">
+        <serverdata>
+          <mappings>
+            <mapping deploy="kuliah\crud_tugas" local="$PROJECT_DIR$" web="kuliah\crud_tugas" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
