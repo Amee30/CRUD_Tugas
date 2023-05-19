@@ -20,8 +20,6 @@
       if (isset($_GET['pesan'])) {
           if ($_GET['pesan']== 'berhasil') {
             include "../action/loginAction.php";
-            var_dump(login());
-            login();
               header("location:dataMhs.php");
 
           }elseif ($_GET['pesan'] == 'gagal') {
@@ -48,7 +46,6 @@
       </div>
       <input class="btn btn-success w-100" type="submit" value="Masuk">
 
-    </form>
   </div>
 </body>
 </html>

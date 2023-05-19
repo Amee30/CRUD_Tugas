@@ -37,6 +37,35 @@ body {
     font-size: 20px;
     margin-top: 15px;
 }
+
+.add {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    border-style: ridge;
+    border-bottom-color: white;
+
+}
+
+.add h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.add form {
+    font-size: 20px;
+}
+
+.add form .form-group {
+    margin-bottom: 12px;
+}
+
+.add form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
 .alert {
     padding: 5px;
 }
