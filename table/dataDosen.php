@@ -43,8 +43,8 @@
                 <td><?php echo $result['nama'] ?></td>
                 <td><?php echo $result['nip'] ?></td>
                 <td><?php echo $result['alamat'] ?></td>
-                <td><a class="btn btn-warning" href="">Edit</a>
-                    <a class="btn btn-danger" href="">Delete</a>
+                <td><a class="btn btn-warning" href="../utils/editDosen.php?edit=<?php echo $result['id']; ?>">Edit</a>
+                    <a class="btn btn-danger" href="../action/deleteAction2.php?delete=<?php echo $result['id']; ?>">Delete</a>
                 </td>
 
             </tr>
@@ -52,6 +52,10 @@
         }
         ?>
     </table>
+
+    <form action="../utils/addDosen.php">
+        <button type="submit" class="btn btn-info mb-3">Tambahkan Dosen</button>
+    </form>
 
     <form action="../action/logoutAction.php">
         <button type="submit" class="btn btn-danger mb-3">Log Out</button>

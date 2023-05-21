@@ -5,7 +5,9 @@
     <file url="file://$PROJECT_DIR$/action/loginAction.php" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/table/dataDosen.php" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/table/dataMhs.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/utils/addDosen.php" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/utils/addMhs.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/utils/editDosen.php" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/utils/editMhs.php" dialect="GenericSQL" />
   </component>
 </project>
