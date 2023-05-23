@@ -1,6 +1,6 @@
 Ini Cuma Tugas Webdasar
 
-Segala bug yg ada diluar tanggung jawab saya (malas debugging)
+Mungkin Masih ada banyak bug pada web ini
 Yang penting jadi
 
 INGAT INI CUMA TUGAS!!
