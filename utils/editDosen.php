@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 
     $sql = "SELECT * FROM dosenmember WHERE id = $getId";
     $result = $koneksi -> query($sql);
-    $row = $result -> fetch_assoc();
+    $row = mysqli_fetch_array($result);
 
     if (!$row) {
         header("location:../table/dataDosen.php");
